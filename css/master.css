@@ -9,3 +9,89 @@
   display: table;
   clear: both;
 }
+
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  background-color: rgb(219,239,244);
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(0,0,0);
+}
+
+/* INIZIO HEADER SUPERIORE */
+.header_top {
+  width: 100%;
+  border-bottom: 1px solid rgb(0,0,0);
+}
+.nav_container,
+.nav_container {
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+  position: relative;
+}
+.nav_left, .nav_right {
+  display: inline-block;
+  width: 50%;
+}
+.nav_right {
+  text-align: center;
+  position: absolute;
+  right: 0;
+}
+ul li{
+  display: inline;
+  height: 100%;
+  line-height: 80px;
+  padding: 5px;
+}
+
+.contact {
+  border-left: 1px solid rgb(0,0,0);
+  padding-left: 10px;
+}
+
+.fa-angle-down {
+  margin-right: 5px;
+}
+.fa-search {
+  color: rgb(0,178,204);
+}
+/* FINE HEADER SUPERIORE */
+
+/* BUTTONS */
+.btn {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+      /* bottone arancione con testo bianco */
+.btn_orange {
+  background-color: rgb(255,136,71);
+}
+.btn_white_text {
+  color: rgb(255,255,255);
+}
+      /* bottone bianco con testo arancione */
+.btn_orange_white {
+  border: 1px solid rgb(255,136,71);
+  background-color: rgb(255,255,255);
+}
+.btn_orange_text {
+  color: rgb(255,136,71);
+}
+/* FINE BUTTONS */
+
+/* INIZIO HEADER INFERIORE */
+.header_bottom {
+  width: 100%;
+  background-color: rgb(255,255,255);
+}
+/* FINE HEADER INFERIORE */
+
+
+
+/* da cancellare */
