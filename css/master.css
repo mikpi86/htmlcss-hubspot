@@ -38,7 +38,7 @@ li a {
   width: 50%;
 }
 .nav_right {
-  text-align: center;
+  text-align: right;
   position: absolute;
   right: 0;
 }
@@ -90,6 +90,14 @@ ul li{
   width: 100%;
   background-color: rgb(255,255,255);
 }
+
+.logo_hubspot_img {
+  height: 80px;
+  line-height: 80px;
+  padding-top: 5px;
+  display: inline-block;
+}
+
 /* FINE HEADER INFERIORE */
 
 
