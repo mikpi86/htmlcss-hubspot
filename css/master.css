@@ -113,7 +113,6 @@ ul li{
 .jumbotron {
   width: 100%;
   height: 738px;
-  background-color: rgb(253,228,217);
   background-image: url('../img/jumbotron.png');
   background-size: 100%;
   background-repeat: no-repeat;
@@ -147,13 +146,66 @@ ul li{
 /* FINE JUMBOTRON */
 
 /* INIZIO MAIN */
+main {
+  width: 100%;
+}
+.main_section {
+  width: 80%;
+  margin: auto;
+}
+.first_section {
+  width: 100%;
+  background-image: url('../img/cube.svg');
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: top;
+  text-align: center;
+}
+.first_section h2 {
+  font-size: 2em;
+  padding-top: 300px;
+}
+.first_section p {
+  max-width: 70%;
+  margin: auto;
+}
+
+.box {
+  padding: 20px;
+  border: 1px solid rgba(152,172,191,0.2);
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 1px rgba(152,172,191,0.2);
+}
+.horizontal_box {
+  width: 100%;
+  height: 350px;
+  margin: 20px 0;
+}
+.vertical_box {
+  width: 30%;
+  height: 650px;
+  margin-bottom: 20px;
+  float: left;
+}
+.vertical_left_box,
+.vertical_middle_box {
+  margin-right: 5%;
+}
 
 
 /* da cancellare */
+.jumbotron {
+  background-color: rgb(254,241,238);
+}
 
+.first_section {
+  height: 900px;
+}
 
-section {
-  width: 100%;
-  height: 300px;
+.box {
   background-color: gold;
 }
+
+/* sfondo */
+/* background: linear-gradient(90deg, #00a5bd, #00b1b1, #00bda5); */
