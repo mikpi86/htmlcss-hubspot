@@ -167,7 +167,7 @@ main {
   padding-top: 300px;
 }
 .first_section p {
-  max-width: 70%;
+  max-width: 80%;
   margin: auto;
 }
 
@@ -176,12 +176,86 @@ main {
   border: 1px solid rgba(152,172,191,0.2);
   border-radius: 5px;
   box-shadow: 0px 0px 3px 1px rgba(152,172,191,0.2);
+  background-color: white;
 }
+.box h3 {
+  font-size: 1.5em;
+}
+
 .horizontal_box {
   width: 100%;
   height: 350px;
   margin: 20px 0;
 }
+.horizontal_left {
+  width: 30%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.horizontal_right {
+  width: 70%;
+  height: 100%;
+  float: left;
+  text-align: left;
+  padding: 30px 50px;
+}
+
+#crm_illustration {
+  content: url('../img/CRM-Illustration.svg');
+  width: 60%;
+  margin: 20px auto 60px;
+}
+.horizontal_left > .btn {
+  display: inline;
+  padding: 20px 30px;
+}
+.horizontal_right p {
+  display: inline-block;
+  text-align: left;
+}
+
+/* INIZIO POPOLAR FEATURE CON HR */
+.popolar_container {
+  line-height: 30px;
+}
+.popolar {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: bolder;
+  vertical-align: middle;
+}
+.popolar_hr {
+  height: 0;
+  border: 0;
+  border-top: 3px solid rgb(176,179,182);
+  vertical-align: middle;
+  display: inline-block;
+  margin: auto;
+}
+
+.horizontal_popolar {
+  margin-right: 40px;
+}
+.horizontal_popolar_hr {
+  width: 500px;
+}
+.vertical_popolar {
+  padding: 30px 0;
+}
+.vertical_popolar_hr {
+  width: 250px;
+}
+/* FINE POPOLAR FEATURE CON HR */
+
+.fa-check-circle {
+  color: rgb(255,136,71);
+  margin-right: 10px;
+}
+li > span {
+  margin-right: 20px;
+}
+
 .vertical_box {
   width: 30%;
   height: 650px;
@@ -192,6 +266,49 @@ main {
 .vertical_middle_box {
   margin-right: 5%;
 }
+.vertical_top {
+  width: 100%;
+  height: 60%;
+}
+.vertical_top p {
+  text-align: center;
+}
+.vertical_bottom {
+  width: 100%;
+  height: 40%;
+}
+.vertical_list {
+  margin-bottom: 40px;
+}
+.vertical_list li {
+  display: block;
+  line-height: 10px;
+  text-align: left;
+  padding-left: 40px;
+}
+.vertical_bottom > .btn {
+  display: inline;
+  padding: 20px 30px;
+}
+
+/* IMMAGINI BOX */
+#marketing_hub {
+  content: url('../img/Marketing-Hub-Free.svg');
+  width: 40%;
+  margin: 0 auto 20px;
+}
+#sales_hub {
+  content: url('../img/Sales-Professional-Illustration.svg');
+  width: 50%;
+  margin: 0 auto 20px;
+}
+#service_hub {
+  content: url('../img/Service-Hub-Illustration.svg');
+  width: 36%;
+  margin: 0 auto 20px;
+}
+/* FINE IMMAGINI BOX */
+
 
 
 /* da cancellare */
@@ -199,13 +316,6 @@ main {
   background-color: rgb(254,241,238);
 }
 
-.first_section {
-  height: 900px;
-}
-
-.box {
-  background-color: gold;
-}
 
 /* sfondo */
 /* background: linear-gradient(90deg, #00a5bd, #00b1b1, #00bda5); */
