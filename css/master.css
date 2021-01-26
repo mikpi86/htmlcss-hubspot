@@ -150,7 +150,7 @@ ul li{
 main {
   width: 100%;
 }
-.section_w80 {
+.margin_w80 {
   width: 80%;
   margin: auto;
 }
@@ -463,13 +463,81 @@ li > span {
 /* FINE MAIN */
 
 /* FOOTER */
-
-
-/* da cancellare */
-.jumbotron {
-  background-color: rgb(254,241,238);
+footer {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(51,71,91);
+  text-transform: capitalize;
+}
+footer .footer_main_container,
+.liste_footer a,
+.lingue a,
+.legal_docs a {
+  color: rgb(176,176,177);
 }
 
-.third_section {
-  margin-bottom: 20px;
+.footer_main_container .liste_footer {
+  width: 100%;
+  height: 300px;
+  padding: 20px 0;
+}
+.liste_footer .list_title {
+  color: rgb(250,250,250);
+  margin-bottom: 10px;
+}
+.liste_footer li {
+  display: block;
+  line-height: normal;
+}
+#first_list,
+#second_list,
+#third_list,
+#fourth_list {
+  width: 25%;
+  float: left;
+}
+/* BUTTON FOOTER */
+li > .footer_btn {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(176,176,177);
+}
+.footer_text_btn {
+  color: rgb(51,71,91);
+  text-align: center;
+}
+/* FINE BUTTON FOOTER */
+
+#socials li {
+  display: inline;
+  margin-right: 5px;
+}
+
+.lingue {
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+  text-align: center;
+  line-height: 50px;
+  vertical-align: 50px;
+  border-bottom: 1px solid rgb(176,176,177);
+}
+.lingue span {
+  padding: 0 10px;
+}
+
+.credits {
+  width: 100%;
+  height: 150px;
+  margin: 30px 0;
+}
+.credits .logo_hubspot_white {
+  content: url('https://www.hubspot.com/hubfs/HubSpot_Logos/HSLogo_gray.svg');
+  display: inline-block;
+}
+.credits .legal_docs {
+  display: inline-block;
+  float: right;
 }
