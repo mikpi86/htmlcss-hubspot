@@ -133,7 +133,9 @@ ul li{
 .jumbotron_text p {
   margin-bottom: 40px;
 }
-.jumbotron_text .btn_orange {
+.jumbotron_text .btn_orange,
+/* stessa regola per bottone terza sezione */
+.third_bottom_left .btn_orange {
   padding: 20px 30px;
   border-radius: 10px;
 }
@@ -315,7 +317,6 @@ li > span {
 .second_section {
   width: 100%;
   height: 620px;
-  margin-bottom: 20px;
   background: linear-gradient(90deg, #00a5bd, #00b1b1, #00bda5);
   color: rgb(255,255,255);
   padding: 40px 220px;
@@ -353,7 +354,9 @@ li > span {
 .element img {
   padding: 10px 0;
 }
-.element span {
+.element span,
+/* stessa regola per span terza sezione */
+.third_top_left span {
   font-size: 3em;
   font-weight: 500;
   display: block;
@@ -367,9 +370,106 @@ li > span {
 }
 /* FINE SECONDA SECTION */
 
+/* TERZA SECTION */
+.third_section {
+  width: 100%;
+  height: 700px;
+  background-color: rgb(255,255,255);
+}
+.third_section .third_top {
+  width: 70%;
+  margin: auto;
+  height: 250px;
+}
+.third_top_left {
+  width: 30%;
+  height: 100%;
+  padding: 50px;
+  float: left;
+}
+.third_top_right {
+  width: 70%;
+  height: 100%;
+  padding: 50px;
+  float: left;
+}
+.partners_block {
+
+}
+.partners_block div {
+  display: inline-block;
+  max-width: 155px;
+  padding: 10px;
+}
+#atlassian {
+  content: url('../img/atlassian.png');
+}
+#doordash {
+  content: url('../img/doordash.png');
+}
+#g2crowd {
+  content: url('../img/g2crowd.png');
+}
+#purple {
+  content: url('../img/purple.png');
+}
+#subaru {
+  content: url('../img/subaru.png');
+}
+#wistia {
+  content: url('../img/wistia.png');
+}
+#classpass {
+  content: url('../img/classpass.png');
+}
+#VMware {
+  content: url('../img/VMware.png');
+}
+
+.third_bottom_left {
+  width: 45%;
+  height: 100%;
+  padding: 60px 40px;
+  float: left;
+}
+.third_bottom_left > h2 {
+  font-size: 2em;
+  text-transform: capitalize;
+}
+.third_bottom_left > p {
+  margin-bottom: 40px;
+}
+.third_bottom_left > .btn_orange {
+}
+.third_bottom_left p:last-of-type {
+  font-size: 1em;
+  margin-top: 40px;
+}
+
+.third_section .third_bottom {
+  height: 450px;
+}
+.third_bottom_right {
+  width: 55%;
+  float: left;
+}
+.third_bottom_right .woman {
+  content: url('../img/woman.webp');
+  width: 50%;
+  margin: 20px auto;
+}
+/* FINE TERZA SECTION */
+
 /* FINE MAIN */
+
+/* FOOTER */
+
 
 /* da cancellare */
 .jumbotron {
   background-color: rgb(254,241,238);
+}
+
+.third_section {
+  margin-bottom: 20px;
 }
