@@ -59,6 +59,10 @@ ul li{
   padding: 5px;
 }
 
+.bondi_blue_hover > a:hover{
+  color: #0091ae;
+}
+
 .contact {
   border-left: 1px solid rgb(0,0,0);
   padding-left: 10px;
@@ -82,6 +86,9 @@ ul li{
 .btn_orange {
   background-color: rgb(255,136,71);
 }
+.btn_orange:hover {
+  background-color: #ffbcac;
+}
 .btn_white_text {
   color: rgb(255,255,255);
 }
@@ -89,6 +96,9 @@ ul li{
 .btn_orange_white {
   border: 1px solid rgb(255,136,71);
   background-color: rgb(255,255,255);
+}
+.btn_orange_white:hover {
+  background-color: #fff1ee;
 }
 .btn_orange_text {
   color: rgb(255,136,71);
@@ -436,8 +446,6 @@ li > span {
 .third_bottom_left > p {
   margin-bottom: 40px;
 }
-.third_bottom_left > .btn_orange {
-}
 .third_bottom_left p:last-of-type {
   font-size: 1em;
   margin-top: 40px;
@@ -471,6 +479,14 @@ footer .footer_main_container,
 .lingue a,
 .legal_docs a {
   color: rgb(176,176,177);
+}
+.liste_footer a:hover,
+.lingue a:hover,
+.legal_docs a:hover {
+  color: #7fd1de;
+}
+.footer_btn:hover {
+  background-color: #7fd1de;
 }
 
 .footer_main_container .liste_footer {
@@ -535,6 +551,5 @@ li > .footer_btn {
   display: inline-block;
 }
 .credits .legal_docs {
-  display: inline-block;
   float: right;
 }
